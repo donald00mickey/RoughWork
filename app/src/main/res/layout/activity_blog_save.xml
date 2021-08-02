@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlogSave">
+
+    <TextView
+        android:id="@+id/titleMe2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Title"
+        android:gravity="center"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.103" />
+
+    <TextView
+        android:id="@+id/blogMe2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut odio nec nunc ultrices fringilla. In hac habitasse platea dictumst. Morbi hendrerit tortor a eleifend blandit. Mauris sed erat in libero tincidunt sollicitudin vel ac nisi. Proin at blandit justo, eget tincidunt dolor. Praesent scelerisque tortor nunc, quis blandit lorem scelerisque in. Morbi vehicula mollis ex sed bibendum. Donec interdum justo id lorem vestibulum fermentum. Donec euismod feugiat facilisis. Donec egestas sagittis risus eu sodales. Vestibulum molestie eu libero non tempus. Suspendisse cursus lorem a mattis fringilla. Maecenas non pellentesque sem. Mauris tempor mauris eget dui sagittis mollis. In gravida dapibus libero, tincidunt convallis nulla pellentesque id. Ut blandit purus eu condimentum auctor. Curabitur urna ipsum, iaculis vel neque eu, ornare finibus nisl. Praesent feugiat quam sit amet leo finibus, at pulvinar enim porta. Donec ullamcorper nisi vel enim ultricies mattis. Nullam at felis vulputate, interdum quam id, condimentum velit. Cras consectetur lectus in odio condimentum lobortis. Vestibulum vel nunc non purus vestibulum pretium vitae eget odio. Mauris luctus ipsum et massa pharetra semper. Nullam quis viverra diam. Sed nec eros et libero venenatis pretium et at metus. Cras hendrerit, sem at vestibulum iaculis, massa nibh imperdiet sem, sit amet viverra tortor neque id risus. Quisque ac massa scelerisque, feugiat justo quis, ullamcorper dui. Suspendisse et mi ullamcorper, posuere ipsum in, aliquet elit. Duis mattis faucibus nisl sed viverra. Mauris lobortis eget velit quis imperdiet. Donec finibus neque at nibh condimentum congue. Curabitur suscipit sodales metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce erat lacus, semper at euismod id, luctus a diam. Aliquam at tortor blandit, egestas tortor nec, pellentesque ipsum. Nunc tincidunt ultrices est, eget tristique leo condimentum in. Phasellus viverra, metus et ultricies pulvinar, dui ante congue metus, eget mattis quam ex et nibh. Maecenas at neque a felis consectetur pretium. Aenean elementum, ex nec placerat molestie, eros ligula scelerisque ligula, sit amet consectetur erat tortor in est. Suspendisse ornare, velit eget tincidunt placerat, enim sem varius tortor, sit amet laoreet arcu turpis non ante. Vestibulum nisl sapien, aliquam in lacus non, volutpat interdum felis. Praesent ac massa erat. Nulla in semper leo. Aenean eget vulputate sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. In scelerisque tortor quam, et laoreet justo vestibulum et. Curabitur libero lectus, vulputate sit amet risus vitae, ultricies consequat sapien. Nullam euismod dui ut ex consequat vestibulum. Duis aliquet vulputate accumsan. Nullam eget convallis ante. Nulla tempus elementum leo, eu malesuada est ultricies sed. Ut imperdiet, neque in faucibus volutpat, nunc risus placerat massa, quis blandit odio velit eget arcu. Etiam sit amet tristique metus. Maecenas placerat sit amet mauris quis malesuada. Phasellus eleifend dictum ante, nec blandit leo finibus vitae. Duis egestas viverra nibh quis pharetra. Donec ac tortor non elit iaculis interdum quis quis enim."
+        android:textAlignment="inherit"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleMe2"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
